@@ -13,6 +13,7 @@
 
   packages = with pkgs; [
     gosec
+    google-cloud-sdk
   ];
 
   tasks."boot-dev:submit" = {
