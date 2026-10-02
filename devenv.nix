@@ -14,6 +14,7 @@
   packages = with pkgs; [
     gosec
     google-cloud-sdk
+    turso-cli
   ];
 
   tasks."boot-dev:submit" = {
