@@ -15,6 +15,7 @@
     gosec
     google-cloud-sdk
     turso-cli
+    goose
   ];
 
   tasks."boot-dev:submit" = {
